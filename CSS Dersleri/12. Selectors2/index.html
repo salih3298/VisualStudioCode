@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors - Seçiciler</title>
+    <style>
+        /* * {
+            color: red;
+        } */
+        /* p {
+            color: red;
+        } */
+
+        /* p,
+        a {
+            color: blue;
+        } */
+        /* div p {
+            color: blueviolet;
+        } */
+
+        /* div>p {
+            background-color: red;
+        } */
+
+        /* div+p {
+            background-color: aqua;
+        } */
+        /* div~p {
+            background-color: aqua;
+        } */
+        /* div>p:last-child {
+            background-color: red;
+        } */
+        /* div>p:first-child {
+            background-color: red;
+        } */
+        /* div>p:nth-child(3) {
+            background-color: red;
+        } */
+        /* div>nav>a:nth-child(3) {
+
+            color: red;
+        } */
+        .div2>ul>div li:first-child {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <p>paragraf1</p>
+        <p>paragraf2</p>
+        <p>paragraf3</p>
+        <p>paragraf4</p>
+        <p>paragraf5</p>
+
+        <nav>
+            <p>paragraf6</p>
+            <a href="">link 1</a>
+            <a href="">link 2</a>
+            <a href="">link 3</a>
+        </nav>
+        <a href="">link 4</a>
+        <a href="">link 5</a>
+    </div>
+
+    <div class="div2">
+        <p>paragraf6</p>
+        <ul>
+            <li>li etiketi 1</li>
+            <li>li etiketi 2</li>
+            <li>li etiketi 3</li>
+            <div>
+                <li>li etiketi 4</li>
+            </div>
+        </ul>
+        <p>paragraf7</p>
+        <p>paragraf8</p>
+    </div>
+    <p>paragraf9</p>
+    <p>paragraf10</p>
+    <div>
+        <h3>h3 etiketi 1</h3>
+    </div>
+
+    <h3>h3 etiketi 2</h3>
+    <h3>h3 etiketi 3</h3>
+    <h3>h3 etiketi 4</h3>
+
+</body>
+
+</html>
